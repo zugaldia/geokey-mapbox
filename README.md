@@ -1,2 +1,5 @@
-# geokey-mapbox
+![](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiV2JWL1NFNVRzR2tDYTVFbUFXSjdXbWJFRncvWCs3cDN0RDFRVFdKME1STjU1VkVHdTZpUVRrZE1rZmZYZmlyOGZEdWU0VWR6MTJGYzA4MnZDV1JHUnZZPSIsIml2UGFyYW1ldGVyU3BlYyI6IkxOSkRIOSs3Vm1hMWdPUGUiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+
+# GeoKey + Mapbox integration
+
 Visualizes GeoKeys on a Mapbox map.
