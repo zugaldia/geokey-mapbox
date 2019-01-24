@@ -2,4 +2,26 @@
 
 # GeoKey + Mapbox integration
 
-Visualizes GeoKeys on a Mapbox map.
+An Android app and library to visualize GeoKeys on a Mapbox map.
+
+## About
+
+This repo contains an Android project with two modules:
+
+- `app`: An Android app that visualizes GeoKeys on a map (see screenshots below).
+
+- `libgeokey`: A self-contained Java library that you are free to use in your own projects.
+
+![](/assets/device-2019-01-23-223206.gif)
+_Tap on the map to get the GeoKey for a location_
+
+![](/assets/device-2019-01-23-223403.gif)
+_Look up GeoKeys on the map_
+
+## License
+
+See [LICENSE.md](/LICENSE.md).
+
+## Contributing
+
+If you find any issues or want to suggest any contributions, please [cut a ticket](https://github.com/zugaldia/geokey-mapbox/issues) and tag @zugaldia.
