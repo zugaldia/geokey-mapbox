@@ -1,0 +1,17 @@
+apply plugin: 'java-library'
+
+dependencies {
+    // No local dependencies
+    //implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Retrofit2
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+
+    // Testing
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'com.squareup.okhttp3:mockwebserver:3.12.1'
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"

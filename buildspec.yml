@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+    - echo Build started on `date`
+    - yes | sdkmanager --licenses
+    - yes | sdkmanager --update
+    - ./gradlew :libgeokey:test
+    - ./gradlew :libgeokey:assemble
+    - ./gradlew :app:lint
+    - ./gradlew :app:assembleDebug
+
+artifacts:
+  files:
+  - ./app/build/outputs/apk/debug/app-debug.apk
